@@ -17,3 +17,11 @@ if __name__ == '__main__':
 Arg_1 =int(input("введите первое число "))
 Oper  =input("введите оператор действия ")
 Arg_2  =int(input("введите второе число "))
+if Oper == "+":
+    print(Arg_1 + Arg_2)
+elif Oper =="-":
+    print(Arg_1 + Arg_2)
+elif Oper == "*":
+    print(Arg_1 * Arg_2)
+elif Oper == "/":
+    print(Arg_1 / Arg_2)

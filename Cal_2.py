@@ -20,7 +20,7 @@ Arg_2  =int(input("введите второе число "))
 if Oper == "+":
     print(Arg_1 + Arg_2)
 elif Oper =="-":
-    print(Arg_1 + Arg_2)
+    print(Arg_1 - Arg_2)
 elif Oper == "*":
     print(Arg_1 * Arg_2)
 elif Oper == "/":

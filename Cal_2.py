@@ -14,9 +14,9 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-Arg_1 =int(input("введите первое число "))
+Arg_1 =int(input("введите число "))
 Oper  =input("введите оператор действия ")
-Arg_2  =int(input("введите второе число "))
+Arg_2  =int(input("введите число "))
 if Oper == "+":
     print(Arg_1 + Arg_2)
 elif Oper =="-":
